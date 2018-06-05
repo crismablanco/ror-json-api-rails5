@@ -3,6 +3,6 @@ class UserSerializer < ActiveModel::Serializer
 
   def name 
     names = object.name.split(" ") 
-    "#{names[0].first}. #{names[1][7]}" 
+    "#{names[0].first}. #{names[1].last}" 
   end 
 end

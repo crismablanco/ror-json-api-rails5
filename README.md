@@ -1,24 +1,13 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This app is a json api demo with some interesting features. I have been working with this concepts:
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- rails api generation
+- migrations
+- foreign keys
+- model controller
+- scaffolding
+- serialization for json
+- custom methods inside serializers
+- cache with mem_cache 
+- deployment on [Heroku](https://ror-json-api-crismablanco.herokuapp.com)
