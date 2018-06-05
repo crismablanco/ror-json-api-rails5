@@ -17,6 +17,7 @@ This app is a json api demo with some interesting features. I have been working 
 ![Here is a limit example response](https://s3-us-west-2.amazonaws.com/files-bank/imgs/rake+atack.png)
 
 On this api, the default value for limit request is 1 (<code>limit</code>) every 10 (<code>period</code>) seconds:
+
 <code>rb
 throttle('req/ip', limit: 1, period: 10) do |req| 
     req.ip 
