@@ -19,6 +19,8 @@ gem 'puma', '~> 3.11'
 gem 'active_model_serializers', '~> 0.10.0'
 # cache
 gem 'dalli', '~> 2.7.4'
+# Rack::Attack
+gem 'rack-attack'
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
 
