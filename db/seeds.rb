@@ -8,6 +8,6 @@
 RentalUnit.delete_all
 Random.new_seed
 (1..100).to_a.each do |indice|
-  RentalUnit.new(address: "Adress #{indice}", rooms: rand(4), bathrooms: rand(2), price_cents: rand(100000..1000000), user_id: User.first.id)
+  RentalUnit.create(address: "Adress #{indice}", rooms: rand(4), bathrooms: rand(2), price_cents: rand(100000..1000000), user_id: User.first.id)
   #RentalUnit.create(address: "Adress ", rooms: 4, bathrooms: 2, price_cents: 10000, user_id: User.first.id)
 end
