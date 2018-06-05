@@ -6,7 +6,7 @@ This app is a json api demo with some interesting features. I have been working 
 - migrations
 - db seeding for automate population
 - foreign keys
-- model controller
+- model controller (<code>Users</code> and <code>Rental Units</code>)
 - scaffolding
 - serialization for json
 - custom methods inside serializers
