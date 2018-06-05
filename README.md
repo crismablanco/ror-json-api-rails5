@@ -19,6 +19,7 @@ This app is a json api demo with some interesting features. I have been working 
 On this api, the default value for limit request is 1 (<code>limit</code>) every 10 (<code>period</code>) seconds:
 
 ```rb
+# config/initializers/rack_atack.rb
 throttle('req/ip', limit: 1, period: 10) do |req| 
     req.ip 
 end
