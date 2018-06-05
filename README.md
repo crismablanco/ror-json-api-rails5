@@ -24,3 +24,7 @@ throttle('req/ip', limit: 1, period: 10) do |req|
     req.ip 
 end
 ```
+
+The access to the api get entities are:
+- https://ror-json-api-crismablanco.herokuapp.com/users
+- https://ror-json-api-crismablanco.herokuapp.com/rental_units
